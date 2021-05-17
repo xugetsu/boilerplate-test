@@ -1,0 +1,51 @@
+
+  p.note {
+    font-size: 1rem;
+    color: red;
+  }
+  
+  input, textarea {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 4px;
+    width: 300px;
+    margin-top: 10px;
+    outline: none;
+  }
+  
+  label {
+    width: 400px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  label span {
+    font-size: 1rem;
+  }
+  
+  label.error {
+      color: red;
+      font-size: 1rem;
+      display: block;
+      margin-top: 5px;
+  }
+  
+  label.fail-alert {
+      color: #e46a76;
+      line-height: 1;
+      padding: 2px 0 6px 6px;
+
+  }
+  
+  input.valid.success-alert {
+      border: 2px solid #4CAF50;
+      color: green;
+  }
+  
+  input.error, textarea.error {
+      border: 1px dashed red;
+      font-weight: 300;
+      color: red;
+  }
+ 
